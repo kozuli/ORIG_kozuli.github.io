@@ -1,0 +1,4 @@
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+  {% if post.date %}<p class="entry-date date published"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+  <b class="post-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></b> {{ post.excerpt | strip_html | truncate: 80 }}
+</article><!-- /.tile -->
