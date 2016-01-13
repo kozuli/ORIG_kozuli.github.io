@@ -1,4 +1,7 @@
 # Footer navigation links
 
-- title: Kontakt
+- title: Home
+  url: /
+  
+- title: Impressum
   url: /kontakt/
