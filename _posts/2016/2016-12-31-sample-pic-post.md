@@ -13,6 +13,7 @@ image:
 
 <div class="tiles">
 hello kozuli!
+{{page.url}}
 </div><!-- /.tiles -->
 
 {% include featherlight-gallery.html %}
@@ -37,12 +38,12 @@ hello kozuli!
 </figure>
 </section>
 
-
+<section data-featherlight-gallery data-featherlight-filter="a">
 <figure>
 	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}900x450-1.png"></a>
 	<figcaption>Caption describing these image.</figcaption>
 </figure>
-
+</section>
 
    
  <section data-featherlight-gallery data-featherlight-filter="a">
