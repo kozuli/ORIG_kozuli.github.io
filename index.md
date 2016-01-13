@@ -6,7 +6,7 @@ title:
 
 [comment]: # (Teaser)
 <figure>
-	<img src="/images{{page.url}}pics-gls-teaser.png">
+	<img src="/images{{page.url}}1200x450.png">
 </figure>
 
 [comment]: # (Most recent posts in minimal format)
