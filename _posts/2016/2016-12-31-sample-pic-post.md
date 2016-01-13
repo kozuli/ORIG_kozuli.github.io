@@ -2,7 +2,7 @@
 layout: media
 excerpt: Thundercats deep v sartorial, locavore shoreditch typewriter PBR&B kinfolk gastropub YOLO raw denim fingerstache affogato. 
 image:
-  feature: 2016/sample-pic-post/1600x800.png
+  feature: 2016/sample-pic-post/1200x450.png
   teaser: 2016/sample-pic-post/400x250.png
   thumb: 2016/sample-pic-post/80x80.png
   credit: KOZULI #name of the person or site you want to credit
