@@ -12,8 +12,9 @@ image:
 {% include image-credit.html %}
 
 <div class="tiles">
-hello kozuli!
-{{page.url}}
+hello kozuli!    
+    
+page.url={{page.url}}
 </div><!-- /.tiles -->
 
 {% include featherlight-gallery.html %}
