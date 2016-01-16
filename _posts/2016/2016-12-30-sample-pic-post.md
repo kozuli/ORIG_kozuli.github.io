@@ -14,6 +14,7 @@ image:
 <div class="tiles">
 hello kozuli!    <br/>
     
+site.baseurl={{ site.baseurl }}   <br/>
 page.url={{page.url}}<br/>
 page.path={{page.path}}<br/>
 </div><!-- /.tiles -->
