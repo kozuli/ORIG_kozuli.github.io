@@ -1,18 +1,25 @@
 ---
-layout: archive
+layout: default
 permalink: /
-title: 
+title: Pfefferkuchen trifft Design
 ---
 
-[comment]: # (Teaser)
-<figure>
-	<img src="/images{{page.url}}1200x450.png">
-</figure>
+<div class="page-lead" style="background-image:url(/images{{page.url}}1600x800.png)">
+      <div class="wrap page-lead-content">
+        <h1>Kozuli</h1>
+        <h2>Pfefferkuchen trifft Design</h2>
+      </div><!-- /.page-lead-content -->
+</div><!-- /.page-lead -->
 
-[comment]: # (Most recent posts in minimal format)
+<div id="main" role="main">
+        <div class="wrap">
+        
+<br/>
 <div class="tiles">
-{% for post in site.posts limit:4%}
-	{% include post-grid-min.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+{% for post in site.posts limit:4%}{% include post-grid-min.html %}{% endfor %}
+</div><!-- /.tiles -->  
+
+
+        </div><!-- /.wrap -->
+      </div><!-- /#main -->
 
