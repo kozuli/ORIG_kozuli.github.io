@@ -1,20 +1,22 @@
 ---
 layout: media
-excerpt: Thundercats deep v sartorial, locavore shoreditch typewriter PBR&B kinfolk gastropub YOLO raw denim fingerstache affogato. 
+excerpt: Thundercats deep v sartorial, main pic post
 image:
   feature: test/sample-pic-post/1200x450.png
   teaser: test/sample-pic-post/400x250.png
   thumb: test/sample-pic-post/80x80.png
   credit: KOZULI #name of the person or site you want to credit
   creditlink: http://vk.com #url to their site or licensing
-categories: test
+title: "pic post"
+published: true
+langs: de
+category: de
 ---
 
-{% include image-credit.html %}
-
 <div class="tiles">
-main pic post
+tra lala
 </div><!-- /.tiles -->
+
 
 {% include featherlight-gallery.html %}
 <section data-featherlight-gallery data-featherlight-filter="a">
@@ -69,3 +71,5 @@ Thundercats deep v sartorial, locavore shoreditch typewriter PBR&B kinfolk gastr
 
 Vinyl bushwick slow-carb 90's, tattooed organic cold-pressed master cleanse tumblr fixie. Skateboard franzen cliche, lomo shoreditch narwhal occupy 8-bit. Semiotics wolf you probably haven't heard of them, meggings ethical deep v shoreditch kinfolk banh mi pork belly umami skateboard flannel twee polaroid. DIY post-ironic intelligentsia brunch cronut bespoke, freegan pabst mlkshk mustache kitsch. Pug shabby chic brooklyn, YOLO scenester small batch kitsch hammock. Ramps bespoke pitchfork, lomo cardigan 8-bit chillwave helvetica deep v fanny pack pug heirloom. Seitan literally sriracha tofu, church-key aesthetic neutra bicycle rights.
 
+
+{% include image-credit.html %}

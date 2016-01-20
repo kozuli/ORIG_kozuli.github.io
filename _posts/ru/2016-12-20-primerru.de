@@ -1,0 +1,15 @@
+---
+layout: media
+name: hello
+title: privet
+excerpt: Пост на русском языке
+langs: ru
+category: ru
+---
+
+<div class="tiles">
+ru
+</div><!-- /.tiles -->
+    
+ <a href="/ru/" class="btn-inverse">Все на русском</a><a href="/de/primerde/" class="btn-inverse">DE</a>
+

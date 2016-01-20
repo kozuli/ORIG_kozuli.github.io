@@ -1,15 +1,15 @@
 ---
 layout: default
-permalink: /
-title: Lebkuchen trifft Design
-category: 
+permalink: /mainru/
+title: Дизайн и козули
+category: mainru
 ---
 
-<div class="page-lead" style="background-image:url(/images{{page.url}}1600x800.png)">
+<div class="page-lead" style="background-image:url(/images/1600x800.png)">
       <div class="wrap page-lead-content">
-        <h1>Kozuli</h1>
-        <h2>Lebkuchen trifft Design</h2>
-         <a href="/mainru/" class="btn-inverse">RU</a>
+        <h1>Козули</h1>
+        <h2>Дизайн и козули</h2>
+        <a href="/" class="btn-inverse">DE</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 
@@ -19,7 +19,7 @@ category:
 <br/>
 <div class="tiles">
 {% for post in site.posts limit:4%}
-	{% if post.langs == 'de' %}
+	{% if post.langs == 'ru' %}
 		{% include post-grid-min.html %}
 	{% endif %}
 {% endfor %}
