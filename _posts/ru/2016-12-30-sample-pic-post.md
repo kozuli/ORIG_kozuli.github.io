@@ -11,6 +11,7 @@ title: "pic post"
 published: true
 langs: ru
 category: ru
+published: false
 ---
 
 <div class="tiles">
