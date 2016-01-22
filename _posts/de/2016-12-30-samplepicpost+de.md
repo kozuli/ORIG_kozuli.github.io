@@ -1,6 +1,6 @@
 ---
 layout: media
-excerpt: тра ля ля
+excerpt: Thundercats deep v sartorial, main pic post
 image:
   feature: test/sample-pic-post/1200x450.png
   teaser: test/sample-pic-post/400x250.png
@@ -9,16 +9,17 @@ image:
   creditlink: http://vk.com #url to their site or licensing
 title: "pic post"
 published: true
-langs: ru
+language: de
+translation: ru
 category: 
 published: false
 name: samplepicpost
 ---
 
- <a href="/ru/" class="btn-inverse">Все на русском</a><a href="/sample+pic+post+de/" class="btn-inverse">DE</a>
+{% include i18n-post-buttons.html %}
  
 <div class="tiles">
-тра ля ля
+tra lala
 </div><!-- /.tiles -->
 
 

@@ -9,7 +9,7 @@ category:
       <div class="wrap page-lead-content">
         <h1>Kozuli</h1>
         <h2>Lebkuchen trifft Design</h2>
-         <a href="/r/" class="btn-inverse">RU</a>
+         <a href="/r/" class="btn-inverse">ru</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 
@@ -19,7 +19,7 @@ category:
 <br/>
 <div class="tiles">
 {% for post in site.posts limit:4%}
-	{% if post.langs == 'de' %}
+	{% if post.language == 'de' %}
 		{% include post-grid-min.html %}
 	{% endif %}
 {% endfor %}

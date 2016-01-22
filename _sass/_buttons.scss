@@ -46,6 +46,18 @@
 }
 
 /*
+   I18N post button .btn-i18n
+   ========================================================================== */
+.btn-i18n {
+	@extend .btn-inverse;
+	border: 1px solid $border-color !important;
+	&:hover {
+		color: $white;
+		background-color: lighten($comp-color, 10);
+	}
+}
+
+/*
    Info button .btn-info
    ========================================================================== */
 

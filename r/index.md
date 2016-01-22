@@ -9,7 +9,7 @@ category: r
       <div class="wrap page-lead-content">
         <h1>Козули</h1>
         <h2>Дизайн и козули</h2>
-        <a href="/" class="btn-inverse">DE</a>
+        <a href="/" class="btn-inverse">de</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 
@@ -19,7 +19,7 @@ category: r
 <br/>
 <div class="tiles">
 {% for post in site.posts limit:4%}
-	{% if post.langs == 'ru' %}
+	{% if post.language == 'ru' %}
 		{% include post-grid-min.html %}
 	{% endif %}
 {% endfor %}

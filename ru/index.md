@@ -10,7 +10,7 @@ title: test
  
 <div class="tiles">
 {% for post in posts %}
- {% if post.langs == 'ru' %}
+ {% if post.language == 'ru' %}
     {% include post-grid.html %}
  {% endif %}
 {% endfor %}
