@@ -1,6 +1,6 @@
 ---
 layout: media
-excerpt: тра ля ля
+excerpt: Thundercats deep v sartorial, main pic post
 image:
   feature: test/sample-pic-post/1200x450.png
   teaser: test/sample-pic-post/400x250.png
@@ -9,41 +9,44 @@ image:
   creditlink: http://vk.com #url to their site or licensing
 title: "pic post"
 published: true
-langs: ru
-category: ru
+langs: de
+category: 
 published: false
+name: samplepicpost
 ---
 
+ <a href="/de/" class="btn-inverse">Alle auf Deutsch</a> <a href="/sample+pic+post+ru/" class="btn-inverse">RU</a>
+ 
 <div class="tiles">
-тра ля ля
+tra lala
 </div><!-- /.tiles -->
 
 
 {% include featherlight-gallery.html %}
 <section data-featherlight-gallery data-featherlight-filter="a">
-  {% for i in (1..8) %}<a href="/images{{page.url}}900x450-{{ i }}.png"><img src="/images{{page.url}}80x80-{{ i }}.png"></a>{% endfor %}
+  {% for i in (1..8) %}<a href="/images/{{page.name}}/900x450-{{ i }}.png"><img src="/images/{{page.name}}/80x80-{{ i }}.png"></a>{% endfor %}
 </section>
 
 <section data-featherlight-gallery data-featherlight-filter="a">
 <figure class="third">
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}400x250.png"></a>
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}400x250.png"></a>
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}400x250.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/400x250.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/400x250.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/400x250.png"></a>
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 </section>
 
 <section data-featherlight-gallery data-featherlight-filter="a">
 <figure class="half">
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}400x250.png"></a>
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}400x250.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/400x250.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/400x250.png"></a>
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 </section>
 
 <section data-featherlight-gallery data-featherlight-filter="a">
 <figure>
-	<a href="/images{{page.url}}900x450-1.png"><img src="/images{{page.url}}900x450-1.png"></a>
+	<a href="/images/{{page.name}}/900x450-1.png"><img src="/images/{{page.name}}/900x450-1.png"></a>
 	<figcaption>Caption describing these image.</figcaption>
 </figure>
 </section>
@@ -52,7 +55,7 @@ published: false
  <section data-featherlight-gallery data-featherlight-filter="a">
   <ul class="th-grid">
   {% for i in (1..8) %}
-    <li><a href="/images{{page.url}}900x450-{{ i }}.png"><img src="/images{{page.url}}400x250-{{ i }}.png"></a></li>
+    <li><a href="/images/{{page.name}}/900x450-{{ i }}.png"><img src="/images/{{page.name}}/400x250-{{ i }}.png"></a></li>
   {% endfor %}
   </ul>
   </section>
