@@ -9,7 +9,7 @@ category:
       <div class="wrap page-lead-content">
         <h1>Kozuli</h1>
         <h2>Lebkuchen trifft Design</h2>
-         <a href="/mainru/" class="btn-inverse">RU</a>
+         <a href="/r/" class="btn-inverse">RU</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 

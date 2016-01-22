@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /mainru/
+permalink: /r/
 title: Дизайн и козули
-category: mainru
+category: r
 ---
 
 <div class="page-lead" style="background-image:url(/images/1600x800.png)">
