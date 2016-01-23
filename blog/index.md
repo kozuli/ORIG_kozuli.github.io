@@ -4,8 +4,7 @@ permalink: /blog/
 title: "Unterwegs durch die Tage"
 ---
 
-<a href="/ru/" class="btn-inverse">RU</a>
-<a href="/de/" class="btn-inverse">DE</a>
+<a href="/de/" class="btn-i18n-inverse">de</a><a href="/ru/" class="btn-i18n-inverse">ru</a>
 <div class="tiles">
 {% for post in site.posts %}
 	{% include post-grid.html %}

@@ -54,7 +54,18 @@
 	border: 2px solid $border-color !important;
 	color: $white !important;
 	&:hover {
-		color: $white;
+		color: $white !important;
+		background-color: lighten($comp-color, 10);
+	}
+}
+
+.btn-i18n-inverse {
+	@extend .btn-i18n;
+	background-color: Transparent;
+	border: 2px solid $border-color !important;
+	color: $black !important;
+	&:hover {
+		color: $white !important;
 		background-color: lighten($comp-color, 10);
 	}
 }
