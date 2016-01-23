@@ -5,11 +5,11 @@ title: Lebkuchen trifft Design
 category: 
 ---
 
-<div class="page-lead" style="background-image:url(/images{{page.url}}1600x800.png)">
+<div class="page-lead" style="background-image:url(/images{{page.url}}teaser.png)">
       <div class="wrap page-lead-content">
         <h1>Kozuli</h1>
         <h2>Lebkuchen trifft Design</h2>
-         <a href="/r/" class="btn-inverse">ru</a>
+         <a href="/r/" class="btn-i18n">ru</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 

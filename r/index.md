@@ -5,11 +5,11 @@ title: Дизайн и козули
 category: r
 ---
 
-<div class="page-lead" style="background-image:url(/images/1600x800.png)">
+<div class="page-lead" style="background-image:url(/images/teaser.png)">
       <div class="wrap page-lead-content">
         <h1>Козули</h1>
         <h2>Дизайн и козули</h2>
-        <a href="/" class="btn-inverse">de</a>
+        <a href="/" class="btn-i18n">de</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
 
