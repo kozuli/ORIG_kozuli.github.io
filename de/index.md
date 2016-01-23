@@ -1,13 +1,13 @@
 ---
-layout: archive
+layout: blogarchive
 permalink: /de/
-title: test
+title: Unterwegs durch die Tage
 language: de
+translation: ru
 ---
 
 {% assign posts=site.posts  | where:"lang", page.lang%}
 
-<a href="/ru/" class="btn-inverse">Все на русском</a>
 
 <div class="tiles">
 {% for post in posts %}

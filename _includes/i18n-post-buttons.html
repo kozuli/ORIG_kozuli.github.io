@@ -1,1 +1,16 @@
- <a href="/{{page.language}}/" class="btn-i18n">{% case {{page.language}} %}{% when 'de' %}Alle Posts{% when 'ru' %}Все посты{% else %}All{% endcase %}</a> {% for post in site.posts %} {% if post.language == page.translation and post.name == page.name%}<a href="/{{{page.name}}+{{page.translation}}/" class="btn-i18n">{{page.translation}}</a> {% endif %}{% endfor %}
+
+{% if page.source == 'blogarchive' %}
+<a href="/{{page.translation}}/" class="btn-i18n-inverse">
+{% case {{page.translation}} %}{% when 'de' %}de{% when 'ru' %}ru{% else %}All{% endcase %}</a>
+{% endif %}
+{% if page.source == 'blogpost' %}
+<a href="/{{page.language}}/" class="btn-i18n-inverse">
+{% case {{page.language}} %}{% when 'de' %}Alle Posts{% when 'ru' %}Все посты{% else %}All{% endcase %}</a>
+{% endif %}
+{% if page.translation %}
+{% for post in site.posts %}
+{% if post.language == page.translation and post.name == page.name%}
+<a href="/{{{page.name}}+{{page.translation}}/" class="btn-i18n-inverse">{{page.translation}}</a>
+{% endif %}
+{% endfor %}
+{% endif %}

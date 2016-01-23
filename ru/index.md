@@ -1,12 +1,13 @@
 ---
-layout: archive
+layout: blogarchive
 permalink: /ru/
-title: test
+title: Путевой лист
+language: ru
+translation: de
 ---
 
 {% assign posts=site.posts  | where:"lang", page.lang%}
 
- <a href="/de/" class="btn-inverse">Alle auf Deutsch</a>
  
 <div class="tiles">
 {% for post in posts %}
