@@ -2,13 +2,12 @@
 layout: media
 excerpt: Thundercats deep v sartorial, main pic post
 image:
-  feature: test/sample-pic-post/1200x450.png
-  teaser: test/sample-pic-post/400x250.png
-  thumb: test/sample-pic-post/80x80.png
+  feature: samplepicpost/1200x450.png
+  teaser: samplepicpost/400x250.png
+  thumb: samplepicpost80x80.png
   credit: KOZULI #name of the person or site you want to credit
   creditlink: http://vk.com #url to their site or licensing
 title: "pic post"
-published: true
 language: de
 translation: ru
 category: 
