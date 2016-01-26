@@ -9,6 +9,7 @@ category: r
       <div class="wrap page-lead-content">
         <h1>КОЗУЛИ</h1>
         <h2>дизайн и козули</h2>
+        <br/><br/>
         <a href="/" class="btn-i18n" hreflang="de">de</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->

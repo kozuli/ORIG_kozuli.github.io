@@ -9,6 +9,7 @@ category:
       <div class="wrap page-lead-content">
         <h1>KOZULI</h1>
         <h2>lebkuchen trifft design</h2>
+        <br/><br/>
          <a href="/r/" class="btn-i18n" hreflang="ru">ru</a>
       </div><!-- /.page-lead-content -->
 </div><!-- /.page-lead -->
