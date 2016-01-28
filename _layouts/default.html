@@ -42,6 +42,48 @@
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
 
+	<script>
+	var backImg = [
+		'/images/mainimage/teaser1.jpg', 
+		'/images/mainimage/teaser2.jpg', 
+		'/images/mainimage/teaser3.jpg', 
+		'/images/mainimage/teaser4.jpg', 
+		'/images/mainimage/teaser5.jpg', 
+		'/images/mainimage/teaser6.jpg', 
+		'/images/mainimage/teaser7.jpg', 
+		'/images/mainimage/teaser8.jpg', 
+		'/images/mainimage/teaser9.jpg', 
+		'/images/mainimage/teaser10.jpg', 
+		'/images/mainimage/teaser11.jpg', 
+		'/images/mainimage/teaser12.jpg', 
+		'/images/mainimage/teaser13.jpg', 
+		'/images/mainimage/teaser14.jpg', 
+		'/images/mainimage/teaser15.jpg', 
+		'/images/mainimage/teaser16.jpg', 
+		'/images/mainimage/teaser17.jpg', 
+		'/images/mainimage/teaser18.jpg', 
+		'/images/mainimage/teaser19.jpg', 
+		'/images/mainimage/teaser20.jpg', 
+		'/images/mainimage/teaser21.jpg', 
+		'/images/mainimage/teaser22.jpg', 
+		'/images/mainimage/teaser23.jpg', 
+		'/images/mainimage/teaser24.jpg', 
+		'/images/mainimage/teaser25.jpg', 
+		'/images/mainimage/teaser26.jpg', 
+		'/images/mainimage/teaser27.jpg', 
+		'/images/mainimage/teaser28.jpg', 
+		'/images/mainimage/teaser29.jpg', 
+		'/images/mainimage/teaser30.jpg', 
+		'/images/mainimage/teaser31.jpg'
+	];
+	var today = new Date();
+	var date = today.getDate();
+	//document.getElementById("logId").value=date;
+	window.onload = function(){ 
+		document.getElementById('mainimage').style.backgroundImage = 'url('+backImg[date]+')';
+	}
+	</script>
+
   </body>
 
 </html>
