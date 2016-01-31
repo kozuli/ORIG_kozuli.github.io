@@ -83,6 +83,27 @@
 	}
 	</script>
  
+ 	<!-- tag cloud -->
+	 <script type="text/javascript">
+	  $(function() {
+	    var minFont = 10.0,
+	        maxFont = 60.0,
+	        currentFont = 0;
+	
+	    {% assign postCount = 0.0 %}
+	    {% for tag in site.tags %}
+	      {% if tag[1].size > postCount %}
+	        {% assign postCount = tag[1].size %}
+	      {% endif %}
+	    {% endfor %}
+	
+	    {% for tag in site.tags %}
+	      currentFont = (Math.log({{ tag[1].size }}) / Math.log({{ postCount }})) * (maxFont - minFont) + minFont;
+	      $("#tagid{{ forloop.index }}").css("font-size", currentFont + "px");
+	    {% endfor %}
+	  });
+	</script>
+
   </body>
 
 </html>

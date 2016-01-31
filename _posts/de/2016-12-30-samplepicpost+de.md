@@ -11,6 +11,7 @@ title: "pic post"
 language: de
 translation: ru
 category: 
+tags: drei eins zwei 
 published: false
 name: samplepicpost
 ---

@@ -1,0 +1,5 @@
+<div style="color: rgb(122,122,122);display:inline;">
+{% for item in page.tags %}
+<em id="posttagid{{ forloop.index }}" style="">#{{ item }}</em>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</div>
