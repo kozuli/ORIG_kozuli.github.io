@@ -8,6 +8,7 @@ translation:
 category: 
 tags: начало 
 published: true
+share: false
 
 image:
   feature: #samplepicpost/1200x450.png
